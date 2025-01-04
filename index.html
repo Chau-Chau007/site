@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pagamento Online</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Pagamento com Cartão</h1>
+        <form id="payment-form">
+            <div class="input-group">
+                <label for="cardholder-name">Nome no Cartão</label>
+                <input type="text" id="cardholder-name" required>
+            </div>
+            
+            <div class="input-group">
+                <label for="card-element">Detalhes do Cartão</label>
+                <div id="card-element"><!-- Stripe vai injetar o campo aqui --></div>
+            </div>
+            
+            <button type="submit">Pagar</button>
+            <div id="card-errors" role="alert"></div>
+        </form>
+    </div>
+<a href="https://www.elephantbet.co.mz/register/"><button>Entrar</button></a>
+    <script src="https://js.stripe.com/v3/"></script>
+    <script src="script.js"></script>
+</body>
+</html>
