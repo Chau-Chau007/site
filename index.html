@@ -1,86 +1,140 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pagamento Online</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./Style/Style.css">
+    <title>Página Inicial</title>
+
+    <!-- Google AdSense Script -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-6063978237299875" crossorigin="anonymous"></script>
 </head>
-    <style>
-        body {
-    font-family: Arial, sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    margin: 0;
-    background-color: #f4f4f4;
-}
 
-.container {
-    background: #fff;
-    padding: 30px;
-    border-radius: 8px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    width: 400px;
-}
-
-h1 {
-    text-align: center;
-}
-
-.input-group {
-    margin-bottom: 20px;
-}
-
-label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-button {
-    width: 100%;
-    padding: 15px;
-    background-color: #4CAF50;
-    color: white;
-    border: none;
-    border-radius: 5px;
-    font-size: 16px;
-    cursor: pointer;
-}
-
-button:hover {
-    background-color: #45a049;
-}
-
-    </style>
 <body>
-    <div class="container">
-        <h1>Pagamento com Cartão</h1>
-        <form id="payment-form">
-            <div class="input-group">
-                <label for="cardholder-name">Nome no Cartão</label>
-                <input type="text" id="cardholder-name" required>
-            </div>
-            
-            <div class="input-group">
-                <label for="card-element">Detalhes do Cartão</label>
-                <div id="card-element"><!-- Stripe vai injetar o campo aqui --></div>
-            </div>
-            
-            <button type="submit">Pagar</button>
-            <div id="card-errors" role="alert"></div>
-        </form>
+    <div class="nav">
+        <ul>
+            <a href="">
+                <li>Início</li>
+            </a>
+            <a href="">
+                <li>Serviços</li>
+            </a>
+            <a href="">
+                <li>Sobre-nós</li>
+            </a>
+            <a href="">
+                <li>Doenças</li>
+            </a>
+            <a href="">
+                <li>Contacte-nos</li>
+            </a>
+        </ul>
     </div>
-<a href="https://www.elephantbet.co.mz/register/"><button>Entrar</button></a>
-    <script src="https://js.stripe.com/v3/"></script>
-    <script src="script.js"></script>
+
+    <div class="seccaoI">
+        <div class="text">
+            <h2>Saúde Genital Simplificada. <br> <span>Qualidade</span> Amplificada <br>para Transformar Vidas</h2><br>
+            <p><span><b>e Promover</b></span> <i>Saúde e Bem-Estar Genital.</i></p><br><br>
+            <button>Saiba mais</button>
+
+            <!-- AdSense Ad Block -->
+            <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6063978237299875" data-ad-slot="1234567890" data-ad-format="auto"></ins>
+            <script>
+                 (adsbygoogle = window.adsbygoogle || []).push({});
+            </script>
+        </div>
+
+        <div class="imagem">
+            <img src="./Imagens/Forensic medicine-rafiki.svg" alt="">
+        </div>
+    </div>
+
+    <section class="trust-section">
+        <h2 class="section-title">POR QUÊ CONFIAR EM NÓS</h2>
+        <p class="section-subtitle">Cuidamos da sua saúde com excelência e compromisso</p>
+
+        <div class="cards-container">
+            <div class="card">
+                <div class="card-content">
+                    <h3>Excelência Médica</h3>
+                    <p>Na Saúde Genial, reunimos especialistas de ponta, proporcionando cuidado personalizado.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <h3>Cuidado Integral</h3>
+                    <p>Focamos na prevenção, diagnóstico e tratamento, priorizando seu bem-estar.</p>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <h3>Confiança e Dedicação</h3>
+                    <p>Nosso compromisso é garantir que você tenha acesso ao melhor atendimento com respeito e transparência.</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- AdSense Ad Block -->
+        <ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-6063978237299875" data-ad-slot="1234567890" data-ad-format="auto"></ins>
+        <script>
+             (adsbygoogle = window.adsbygoogle || []).push({});
+        </script>
+    </section>
+
+    <section class="section-clientes">
+        <h1>Doenças genitais</h1>
+        <div class="clientes-containers">
+            <div class="card">
+                <div class="card-content">
+                    <div class="img">
+                        <img src="/corrimento-candidiase.jpg" alt="Paciente 1">
+                    </div>
+                    <h3>Corrimento vaginal</h3>
+                    <p>Evite duchas vaginais e prefira roupas íntimas de algodão.</p>
+                    <button>Ler mais</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <div class="img">
+                        <img src="Imagens/WhatsApp Image 2025-01-06 at 15.23.07.jpeg" alt="Paciente 2">
+                    </div>
+                    <h3>Gonorreia</h3>
+                    <p>Use preservativo sempre e mantenha um relacionamento monogâmico.</p>
+                    <button>Ler mais</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-content">
+                    <div class="img">
+                        <img src="./hpv_3.jpg" alt="Paciente 3">
+                    </div>
+                    <h3>HPV</h3>
+                    <p>Higienize a região genital diariamente com água e sabonete neutro.</p>
+                    <button>Ler mais</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="formulario-container">
+            <div class="formulario">
+                <h2>Envie-nos uma <span>mensagem</span></h2>
+                <div class="inputs">
+                    <input type="email" placeholder="Email"><br>
+                    <input type="text" placeholder="Assunto"><br>
+                    <input type="text" placeholder="Mensagem"><br>
+                    <button>Enviar</button>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
+
 </html>
